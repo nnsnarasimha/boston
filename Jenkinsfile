@@ -5,11 +5,7 @@ pipeline {
         stage('Git Pull') {
             steps {
                 git 'https://github.com/nnsnarasimha/boston.git'
-            }
-        }
-        stage {
-            steps { 'build'}
-            
+            }          
         }
         stage('Dev Env') {
             steps {
