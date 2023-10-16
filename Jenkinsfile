@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git Pull') {
             steps {
-                git 'h//github.com/nnsnarasimha/boston.git'
+                git 'https://github.com/nnsnarasimha/boston.git'
             }
         }
         stage {
